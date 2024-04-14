@@ -41,6 +41,6 @@ public class Addon extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "skibidi.client";
     }
 }
