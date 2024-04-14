@@ -1,4 +1,4 @@
-package com.example.addon;
+package skibidi.client;
 
 import com.example.addon.commands.CommandExample;
 import com.example.addon.hud.HudExample;
@@ -22,13 +22,16 @@ public class Addon extends MeteorAddon {
         LOG.info("Initializing Meteor Addon Template");
 
         // Modules
-        Modules.get().add(new ModuleExample());
+        Modules.get().add(new BayBlade());
+        Modules.get().add(new BetterSkibidiSign());
+        Modules.get().add(new SKibidiDmSpam());
+        Modules.get().add(new SkibidiSpin());
+        Modules.get().add(new SkibidiStrike());
+        Modules.get().add(new HandOfSkibidi());
 
         // Commands
-        Commands.add(new CommandExample());
+        Commands.add(new SkibidiSexDupe());
 
-        // HUD
-        Hud.get().register(HudExample.INFO);
     }
 
     @Override
