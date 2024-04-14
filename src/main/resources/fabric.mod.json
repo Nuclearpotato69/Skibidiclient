@@ -14,11 +14,11 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "skibidi.client.Addon"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "skibidi.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
