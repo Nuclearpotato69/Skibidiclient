@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "SkibidiClient",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "SkibidiClient",
+  "description": "Super sigma SkibidiClient",
   "authors": [
-    "seasnail"
+    "Punchy39"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/Nuclearpotato69"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
