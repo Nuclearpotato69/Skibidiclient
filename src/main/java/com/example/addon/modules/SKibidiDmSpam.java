@@ -1,4 +1,4 @@
-package zgoly.meteorist.modules;
+package skibidi.client.modules;
 
 import meteordevelopment.meteorclient.events.game.GameLeftEvent;
 import meteordevelopment.meteorclient.events.game.OpenScreenEvent;
@@ -9,7 +9,7 @@ import meteordevelopment.meteorclient.utils.player.ChatUtils;
 import meteordevelopment.orbit.EventHandler;
 import net.minecraft.client.gui.screen.DisconnectedScreen;
 import org.apache.commons.lang3.RandomStringUtils;
-import zgoly.meteorist.Meteorist;
+import skibidi.client.Addon;
 
 import java.util.*;
 import java.util.stream.Collectors;
