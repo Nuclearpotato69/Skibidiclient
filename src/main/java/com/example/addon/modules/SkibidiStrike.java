@@ -1,4 +1,4 @@
-package skibidi.client.Addon.modules;
+package skibidi.client.modules;
 
 import meteordevelopment.meteorclient.events.game.GameLeftEvent;
 import meteordevelopment.meteorclient.events.game.OpenScreenEvent;
