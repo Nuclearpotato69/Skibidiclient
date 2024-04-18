@@ -31,6 +31,7 @@ public class Addon extends MeteorAddon {
 
         // Commands
         Commands.add(new SkibidiSexDupe());
+        Commands.add(new skibidipurpurcrash());
 
     }
 
