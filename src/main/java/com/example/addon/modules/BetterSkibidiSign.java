@@ -1,4 +1,4 @@
-package pwn.noobs.trouserstreak.modules;
+package skibidi.client.modules;
 
 import meteordevelopment.meteorclient.events.game.OpenScreenEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -25,7 +25,7 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Vec3d;
-import pwn.noobs.trouserstreak.Trouser;
+import skibidi.client.Addon;
 
 import java.util.ArrayList;
 import java.util.List;
