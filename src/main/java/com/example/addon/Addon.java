@@ -1,7 +1,6 @@
 package skibidi.client;
 
 import skibidi.client.commands.CommandExample;
-import skibidi.client.hud.HudExample;
 import skibidi.client.modules.ModuleExample;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -19,7 +18,7 @@ public class Addon extends MeteorAddon {
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing Meteor Addon Template");
+        LOG.info("Initializing SkibidiClient");
 
         // Modules
         Modules.get().add(new BayBlade());
