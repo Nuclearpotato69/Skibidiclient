@@ -377,7 +377,7 @@ public class SkibidiStrike extends Module {
             .visible(() -> airstrikeEveryone.get() && EblockstateSpecify.get())
             .build());
 
-    public AirstrikePlus() {
+    public SkibidiStrike() {
         super(Addon.CATEGORY, "SkibidiStrike", "Rains things down from the sky");
     }
 
