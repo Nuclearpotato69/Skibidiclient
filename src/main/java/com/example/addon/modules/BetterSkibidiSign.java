@@ -160,7 +160,7 @@ public class BetterAutoSign extends Module {
     private int warningticks = 0;
 
     public BetterAutoSign() {
-        super(skibidi.client.Main, "BetterSkibidiSign", "Automatically writes signs and can dye them as well. Credits to MeteorTweaks.");
+        super(Addon.Main, "BetterSkibidiSign", "Automatically writes signs and can dye them as well. Credits to MeteorTweaks.");
     }
 
     @Override
