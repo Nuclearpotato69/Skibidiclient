@@ -368,7 +368,7 @@ public class HandOfSkibidi extends Module {
             .visible(() -> troll.get())
             .build()
     );
-    public HandOfGod() {
+    public HandOfSkibidi() {
         super(Addon.CATEGORY, "HandOfSkibidi", "Modify the world and troll players with automated /fill commands. (Must have OP status)");
     }
     private CopyOnWriteArrayList<PlayerListEntry> players;
