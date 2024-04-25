@@ -24,7 +24,7 @@ import skibidi.client.Addon;
 
 import java.util.Random;
 
-public class AirstrikePlus extends Module {
+public class SkibidiStrike extends Module {
     private final SettingGroup sgGeneral = settings.getDefaultGroup();
     private final SettingGroup sgeveryone = settings.createGroup("AIRSTRIKE EVERYONE Command Options");
     private final SettingGroup sgnormal = settings.createGroup("NORMAL Spawn Egg Options");
