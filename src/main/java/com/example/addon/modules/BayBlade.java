@@ -56,7 +56,7 @@ public class Beyblade extends Module {
     );
 
     public Beyblade() {
-        super(skibidi.client.CATEGORY, "Beyblade", "Tries to rotate you.");
+        super(Addon.CATEGORY, "Beyblade", "Tries to rotate you.");
     }
 
     private short count = 0;
