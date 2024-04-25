@@ -1,5 +1,5 @@
 package skibidi.client.modules.general;
-
+ 
 import skibidi.client.Addon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
