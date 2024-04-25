@@ -8,7 +8,7 @@ import net.minecraft.util.Formatting;
 import java.util.Random;
 
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
-import static skibidi.client.utils.misc.Utils.randomNum;
+import static skibidi.client.randomNum;
 
 public class PopbobSexDupeCommand extends Command {
     private static final String MONEYPREFIX = Formatting.GRAY + "[" + Formatting.DARK_RED + "Skibidi Sex Dupe" + Formatting.GRAY + "] ";
