@@ -14,7 +14,7 @@ import meteordevelopment.orbit.EventHandler;
 
 //From venomhack
 
-public class FloRida extends Module {
+public class SkibidiSpin extends Module {
     private final SettingGroup sgGeneral = settings.getDefaultGroup();
 
     private final Setting<Double> speed = sgGeneral.add(new DoubleSetting.Builder()
