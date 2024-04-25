@@ -159,7 +159,7 @@ public class BetterSkibidiSign extends Module {
     private int timer = 0;
     private int warningticks = 0;
 
-    public BetterAutoSign() {
+    public BetterSkibidiSign() {
         super(Addon.CATEGORY, "BetterSkibidiSign", "Automatically writes signs and can dye them as well. Credits to MeteorTweaks.");
     }
 
