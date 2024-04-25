@@ -34,7 +34,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-public class HandOfGod extends Module {
+public class HandOfSkibidi extends Module {
     private final SettingGroup sgGeneral = settings.getDefaultGroup();
     private final SettingGroup sgClick = settings.createGroup("Click Options");
     private final SettingGroup sgPcentered = settings.createGroup("Player-Centered Options");
