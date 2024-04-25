@@ -369,7 +369,7 @@ public class HandOfGod extends Module {
             .build()
     );
     public HandOfGod() {
-        super(Addon.Main, "HandOfSkibidi", "Modify the world and troll players with automated /fill commands. (Must have OP status)");
+        super(Addon.CATEGORY, "HandOfSkibidi", "Modify the world and troll players with automated /fill commands. (Must have OP status)");
     }
     private CopyOnWriteArrayList<PlayerListEntry> players;
     private int ticks=0;
