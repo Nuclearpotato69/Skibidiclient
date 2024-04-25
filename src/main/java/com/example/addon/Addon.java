@@ -29,8 +29,6 @@ public class Addon extends MeteorAddon {
         Modules.get().add(new HandOfSkibidi());
 
         // Commands
-        Commands.add(new SkibidiSexDupe());
-        Commands.add(new skibidipurpurcrash());
 
     }
 
