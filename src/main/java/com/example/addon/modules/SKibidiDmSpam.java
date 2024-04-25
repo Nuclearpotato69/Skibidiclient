@@ -131,7 +131,7 @@ public class DmSpam extends Module {
     );
 
     public DmSpam() {
-        super(Meteorist.CATEGORY, "dm-spam", "Spams messages in players direct messages.");
+        super(skibidi.client.CATEGORY, "dm-spam", "Spams messages in players direct messages.");
     }
 
     @EventHandler
