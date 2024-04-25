@@ -30,7 +30,7 @@ import skibidi.client.Addon;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BetterAutoSign extends Module {
+public class BetterSkibidiSign extends Module {
     final SettingGroup sgSign = settings.createGroup("Normal Sign Text");
     final SettingGroup sgHang = settings.createGroup("Hanging Sign Text");
     final SettingGroup sgExtra = settings.createGroup("Visible");
