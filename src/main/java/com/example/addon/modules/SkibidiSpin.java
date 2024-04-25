@@ -27,7 +27,7 @@ public class FloRida extends Module {
     );
 
     private int count = 0;
-    public FloRida() {super(skibidi.client.CATEGORY, "SkibidiSpin", "Makes you spin right round.");}
+    public FloRida() {super(Addon.CATEGORY, "SkibidiSpin", "Makes you spin right round.");}
 
     @EventHandler
     public void onTick(TickEvent.Post event) {
