@@ -1,7 +1,6 @@
 package skibidi.client;
 
-import skibidi.client.commands.CommandExample;
-import skibidi.client.modules.ModuleExample;
+import skibidi.client.modules;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.commands.Commands;
