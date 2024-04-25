@@ -15,7 +15,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class DmSpam extends Module {
+public class SkibidiDmSpam extends Module {
     public enum Mode {
         Sequential,
         Random
