@@ -13,7 +13,7 @@ import net.minecraft.item.EnderPearlItem;
 import net.minecraft.item.ExperienceBottleItem;
 import net.minecraft.item.Items;
 
-public class Beyblade extends Module {
+public class Bayblade extends Module {
     private final SettingGroup sgDefault = settings.getDefaultGroup();
 
     private final Setting<Mode> antiDesync = sgDefault.add(new EnumSetting.Builder<Mode>()
@@ -55,7 +55,7 @@ public class Beyblade extends Module {
             .build()
     );
 
-    public Beyblade() {
+    public Bayblade() {
         super(Addon.CATEGORY, "Beyblade", "Tries to rotate you.");
     }
 
