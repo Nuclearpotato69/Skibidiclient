@@ -15,7 +15,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class SkibidiDmSpam extends Module {
+public class SKibidiDmSpam extends Module {
     public enum Mode {
         Sequential,
         Random
@@ -130,7 +130,7 @@ public class SkibidiDmSpam extends Module {
             .build()
     );
 
-    public DmSpam() {
+    public SKibidiDmSpam() {
         super(Addon.CATEGORY, "dm-spam", "Spams messages in players direct messages.");
     }
 
