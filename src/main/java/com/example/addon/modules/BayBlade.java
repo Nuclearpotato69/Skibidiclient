@@ -56,7 +56,7 @@ public class Beyblade extends Module {
     );
 
     public Beyblade() {
-        super(NumbyHack.CATEGORY, "Beyblade", "Tries to rotate you.");
+        super(skibidi.client.CATEGORY, "Beyblade", "Tries to rotate you.");
     }
 
     private short count = 0;
