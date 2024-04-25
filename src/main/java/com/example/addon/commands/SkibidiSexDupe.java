@@ -16,13 +16,13 @@ public class PopbobSexDupeCommand extends Command {
     private static Random r = new Random();
 
     public PopbobSexDupeCommand() {
-        super("Skibidi-sex-dupe", "Dupe free money with Popbob Sex Dupe");
+        super("Skibidi-sex-dupe", "Dupe free money with skibidi Sex Dupe");
     }
 
     @Override
     public void build(LiteralArgumentBuilder<CommandSource> builder) {
         builder.executes(context -> {
-            send(Formatting.DARK_RED + "Popbob Sex Dupe" + Formatting.GRAY + " Activated...");
+            send(Formatting.DARK_RED + "skibidi Sex Dupe" + Formatting.GRAY + " Activated...");
             sendInfo();
             return SINGLE_SUCCESS;
         });
