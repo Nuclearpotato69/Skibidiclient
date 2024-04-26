@@ -56,7 +56,7 @@ public class BayBlade extends Module {
     );
 
     public BayBlade() {
-        super(Addon.CATEGORY, "Beyblade", "Tries to rotate you.");
+        super(Addon.CATEGORY, "Bayblade", "Tries to rotate you.");
     }
 
     private short count = 0;
