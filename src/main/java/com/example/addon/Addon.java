@@ -17,7 +17,7 @@ public class Addon extends MeteorAddon {
         LOG.info("Initializing SkibidiClient");
 
         // Modules
-        Modules.get().add(new BayBlade());
+        Modules.get().add(new Beyblade());
         Modules.get().add(new BetterSkibidiSign());
         Modules.get().add(new SKibidiDmSpam());
         Modules.get().add(new SkibidiStrike());
