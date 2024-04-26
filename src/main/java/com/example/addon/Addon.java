@@ -20,7 +20,6 @@ public class Addon extends MeteorAddon {
         Modules.get().add(new BayBlade());
         Modules.get().add(new BetterSkibidiSign());
         Modules.get().add(new SKibidiDmSpam());
-        Modules.get().add(new SkibidiSpin());
         Modules.get().add(new SkibidiStrike());
         Modules.get().add(new HandOfSkibidi());
 
